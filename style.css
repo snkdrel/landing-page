@@ -38,14 +38,31 @@ body{
     text-decoration: none;
 }
 
-
 .secondary-text,
 .header a{
     font-size: 18px;
     color: #e5e7eb;
 }
 
+/*hero*/
+.hero{
+    display: flex;
+    padding: 64px 128px;
+    justify-content: space-between;
+    gap:32px;
+}
 
+.hero-left-side{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex: 1;
+    gap: 12px;
+}
+
+.hero img{
+    flex: 1;
+}
 
 .main-text{
     font-size: 48px;
@@ -55,7 +72,15 @@ body{
 
 .hero-button{
     background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 12px;
+    border: 0px;
+    width: 100px;
+    padding: 8px;
 }
+
+
+
 
 .info-header{
     font-size: 36px;
