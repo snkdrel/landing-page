@@ -1,0 +1,25 @@
+body{
+    font-family: "Roboto", sans-serif;
+}
+
+.header,
+.footer{
+    background-color: #1f2937;
+}
+
+/* header logo*/
+.header div{
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+/*header link*/
+.header a{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.footer{
+    font-size: 18px;
+    color: #e5e7eb;
+}
