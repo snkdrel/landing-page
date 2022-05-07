@@ -20,7 +20,8 @@ body{
     padding: 16px 128px;
 }
 
-.logo-text{
+.logo-text,
+.main-text-sign-up{
     font-size: 24px;
     color: #f9faf8;
     font-weight: bold;
@@ -39,7 +40,8 @@ body{
 }
 
 .secondary-text,
-.header a{
+.header a,
+.secundary-text-sign-up{
     font-size: 18px;
     color: #e5e7eb;
 }
@@ -135,4 +137,25 @@ body{
     padding: 32px 64px;
     background-color: #3882f6;
     border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sign-up-button{
+    border: 3px;
+    border-color: #f9faf8;
+    border-style: solid;
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 12px;
+    width: 100px;
+    padding: 8px 10px;
+}
+
+/*footer*/
+.footer{
+    padding: 32px;
+    text-align: center;
+    color: #f9faf8;
+    font-size: 18px;
 }
