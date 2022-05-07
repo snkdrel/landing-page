@@ -64,6 +64,7 @@ body{
 
 .hero img{
     flex: 1;
+    width: 300px;
 }
 
 .main-text{
@@ -110,6 +111,14 @@ body{
 .card div{
     margin-top: 8px;
     color: #1f2937;
+}
+
+.card img{
+    width: 200px;
+    border: 3px;
+    border-color: #3882f6;
+    border-style: solid;
+    padding: 0px;
 }
 
 /*quote*/
